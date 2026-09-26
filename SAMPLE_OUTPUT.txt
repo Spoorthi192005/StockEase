@@ -1,0 +1,231 @@
+STOCKEASE — SAMPLE CONSOLE OUTPUT
+=================================
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 1
+
+===== ADD PRODUCT =====
+Enter Product ID: 101
+Enter Product Name: Rice
+Enter Category: Grocery
+Enter Price: 102
+Enter Quantity: 50
+Enter Supplier: ABC Suppliers
+Enter Reorder Level: 10
+Enter Discount (%): 4
+Enter Product Type (1 = Perishable, 2 = Non-Perishable): 2
+Enter Warranty (months): 36
+Product added successfully.
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 1
+
+===== ADD PRODUCT =====
+Enter Product ID: 102
+Enter Product Name: Milk
+Enter Category: Dairy
+Enter Price: 60
+Enter Quantity: 5
+Enter Supplier: Fresh Suppliers
+Enter Reorder Level: 10
+Enter Discount (%): 0
+Enter Product Type (1 = Perishable, 2 = Non-Perishable): 1
+Enter Expiry Date: 30-09-2026
+Product added successfully.
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 2
+
+===== INVENTORY PRODUCTS =====
+Product ID: 101, Name: Rice, Category: Grocery, Price: ₹102.0, Quantity: 50, Discount: 4.0%, Type: Non-Perishable, Warranty: 36 months
+Product ID: 102, Name: Milk, Category: Dairy, Price: ₹60.0, Quantity: 5, Discount: 0.0%, Type: Perishable, Expiry Date: 30-09-2026
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 3
+
+===== SEARCH PRODUCT =====
+1. Search by Name
+2. Search by Product ID
+Enter choice: 1
+Enter product name: Rice
+Product Found:
+Product ID: 101, Name: Rice, Category: Grocery, Price: ₹102.0, Quantity: 50, Discount: 4.0%, Type: Non-Perishable, Warranty: 36 months
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 3
+
+===== SEARCH PRODUCT =====
+1. Search by Name
+2. Search by Product ID
+Enter choice: 2
+Enter product ID: 101
+Product Found:
+Product ID: 101, Name: Rice, Category: Grocery, Price: ₹102.0, Quantity: 50, Discount: 4.0%, Type: Non-Perishable, Warranty: 36 months
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 4
+
+Enter Product ID: 101
+Enter New Quantity: 20
+Quantity updated successfully.
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 7
+
+===== LOW STOCK PRODUCTS =====
+Milk - Quantity: 5
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 8
+
+Enter Product ID: 101
+Enter Discount Percentage: 10
+Discount applied successfully.
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 6
+
+Total Inventory Value: ₹1200.00
+Whole-number Inventory Value: ₹1200
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 5
+
+Enter Product ID to remove: 102
+Product removed successfully.
+
+
+=================================
+       STOCKEASE INVENTORY
+=================================
+1. Add Product
+2. View Products
+3. Search Product
+4. Update Quantity
+5. Remove Product
+6. Calculate Inventory Value
+7. Check Low Stock
+8. Apply Discount
+9. Exit
+Enter your choice: 9
+
+Thank you for using StockEase!
