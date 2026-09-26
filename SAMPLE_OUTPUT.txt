@@ -192,8 +192,8 @@ Discount applied successfully.
 9. Exit
 Enter your choice: 6
 
-Total Inventory Value: ₹1200.00
-Whole-number Inventory Value: ₹1200
+Total Inventory Value: ₹2136.00
+Whole-number Inventory Value: ₹2136.00
 
 
 =================================
