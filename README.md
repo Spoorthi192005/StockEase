@@ -75,19 +75,72 @@ StockEase/
         ├── Discountable.java
         └── Inventory.java
 
-/Class Relationship
+## 5. Class Relationship
+
+```text
                          <<abstract>>
                            Product
-                          /       \
-                         /         \
-          PerishableProduct                                 NonPerishableProduct
-                 Product implements
-                    Discountable
+                              |
+              +---------------+---------------+
+              |                               |
+           extends                         extends
+              |                               |
+              v                               v
+   PerishableProduct                 NonPerishableProduct
+        |                                  |
+   expiryDate                         warrantyMonths
 
-                    ProductType
-                      <<enum>>
+
+                  <<interface>>
+                   Discountable
+                        ^
+                        |
+                    implements
+                        |
+                      Product
+
+
+                    <<enum>>
+                  ProductType
+                  /         \
+                 /           \
+          PERISHABLE     NON_PERISHABLE
+
 
                      Inventory
                          |
                          |
-                      Product[]
+                    Product[]
+                         |
+                         v
+                 Manages Products
+
+
+                  InventoryApp
+                       |
+                       v
+                    Inventory
+                       |
+                    Scanner
+```
+
+
+add:
+
+```markdown
+## 5. Project Structure
+
+The project follows a simple package-based structure:
+
+- `main` — contains the main application and console menu.
+- `model` — contains product-related classes and the product type enum.
+- `service` — contains inventory operations and the discount interface.
+## 6. How to Run
+
+Compile the Java source files from the `src` directory and run `InventoryApp`.
+
+The application provides a console-based menu for managing inventory products.
+
+## 7. Sample Output
+
+A sample console output is included in `SAMPLE_OUTPUT.txt`.
