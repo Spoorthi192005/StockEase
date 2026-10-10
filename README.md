@@ -141,6 +141,14 @@ Compile the Java source files from the `src` directory and run `InventoryApp`.
 
 The application provides a console-based menu for managing inventory products.
 
-## 7. Sample Output
+## 7. Sample Console Output
 
-A sample console output is included in `SAMPLE_OUTPUT.txt`.
+![Output 1](Screenshot%202026-09-26%20231109.png)
+
+![Output 2](Screenshot%202026-09-26%20231128.png)
+
+![Output 3](Screenshot%202026-09-26%20231143.png)
+
+![Output 4](Screenshot%202026-09-26%20231158.png)
+
+![Output 5](Screenshot%202026-09-26%20231230.png)
